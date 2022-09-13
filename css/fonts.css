@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Arial';
+    src:url(../fonts/Arial.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: Bourgeois-Bold;
+    src: url("../fonts/Bourgeois-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Bourgeois-BoldCond';
+    src: url("../fonts/Bourgeois-BoldCond.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: Bourgeois-Book;
+    src: url("../fonts/Bourgeois-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bourgeois-BookCond;
+    src: url("../fonts/Bourgeois-BookCond.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bourgeois-MedCond;
+    src: url("../fonts/Bourgeois-MedCond.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: Bourgeois-MedCondAlt;
+    src: url("../fonts/Bourgeois-MedCondAlt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bourgeois-UltraCond;
+    src: url("../fonts/Bourgeois-UltraCond.otf") format("opentype");
+}
+
+

@@ -1,0 +1,463 @@
+/*mods*/
+
+
+@media (min-width: 992px){
+    .v-center{
+        position: absolute !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%,-50%);
+        /* safari*/
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+}
+@media (max-width: 992px){
+    .v-center{
+        margin-top:10%;
+    }
+}
+
+.v-center-2{
+    display:inline-block;
+    vertical-align:middle
+}
+
+
+
+.navbar-collapse.collapse.in{
+    background:black;
+}
+.navbar-collapse.collapse.in a{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #d7aa32 !important;
+    font-weight: bold !important;  
+}
+
+.fp-viewing-start #menu2 ul li:nth-child(1) a,
+.fp-viewing-treningi #menu2 ul li:nth-child(2) a,
+.fp-viewing-grafik #menu2 ul li:nth-child(3) a,
+.fp-viewing-treningi_personalne #menu2 ul li:nth-child(4) a,
+.fp-viewing-dzik_komando #menu2 ul li:nth-child(5) a,
+.fp-viewing-kontakt #menu2 ul li:nth-child(6) a{
+    color: #d7aa32 !important;
+    font-weight: bold !important;
+}
+
+
+
+body{
+    font-family: Arial;
+}
+
+@media (min-width: 992px){
+
+    #fullpage{
+        margin:0 60px
+    }   
+    .navbar-default .navbar-toggle {
+        margin-left:60px;
+    }
+    .header-push{
+        right:-60px;
+    }
+    .header-push-2{
+        right:-80px;
+    }
+}
+
+h1{
+    font-family: Bourgeois-BoldCond;
+    text-transform: uppercase;
+
+}
+h2{
+    font-family: Bourgeois-BoldCond;
+    text-transform: uppercase;
+}
+
+p{
+    color: #1e1e1e;
+    font-family: Arial;
+}
+
+
+@media (min-width: 1200px)  {
+    h1{font-size: 79px;}
+    h2{font-size:62px;}
+    .middle{font-size:18px;}
+    .middle-2{font-size:25px;}
+    .big{font-size:40px;}
+    .small{font-size:12px;}
+    p{font-size:18px} 
+}
+
+@media (min-width: 768px) and(max-width: 1200px)  
+{
+    h1{font-size: 40px;}
+    h2{font-size:30px;}
+    .middle{font-size:20px;}
+    .middle-2{font-size:20px;}
+    .big{font-size:30px;}
+    p{font-size:14px} 
+
+}
+
+@media (max-width: 768px)
+{
+    h1{font-size: 20px;}
+    h2{font-size:20px;}
+    .middle{font-size:12px;}
+    .middle-2{font-size:12px;}
+    .big{font-size:14px;}
+    p{font-size:12px} 
+
+}
+
+.font-1{
+    font-family: Bourgeois-BoldCond;
+}
+
+.font-2{
+    font-family: Bourgeois-BookCond;
+}
+
+@media (min-width: 768px){
+    .font-2{
+        line-height: 35px;
+    } 
+}
+
+
+
+.up{
+    text-transform: uppercase
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*start*/
+#section0{
+    background-image: url(../img/bg_start.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+
+@media (max-width: 768px){
+    #section0{
+        background-position: top center;
+    }   
+}
+@media (min-width: 768px){
+    #section0{
+        background-position: top center;
+    }   
+}
+
+@media (min-width: 1200px){
+    #section0{
+        background-position: center center;
+        background-size: 100% 100%;
+    }  
+}
+
+
+#section0 h1{
+    color: white;
+}
+@media (max-width: 1200px){
+    #fp-nav{
+        display:none;
+    }
+}
+@media (min-width: 768px){
+    .navbar-collapse.collapse.in{
+        width:160px;
+        margin-left:-10px;
+    }
+    .border{
+        border: 3px solid white;
+    }
+    .border-no{
+        border-bottom:0px;
+    }
+    .border-black{
+        border: 3px solid black;
+    }
+    .border-no{
+        border-bottom:0px;
+    }
+    #section0 p{
+        margin: 30px;
+    }
+    #section0{
+        background-position: 100%;
+    }
+
+}
+
+#section0 p{
+    color: white;
+}
+/*treningi*/
+#section1 h1{
+    color: #343434;
+}
+
+#section1 .foto img{
+    width:100%;
+    border-top:3px solid transparent;
+    border-right:3px solid transparent;
+}
+
+#section1 .foto{
+    background-image: url("../img/gradient.png");
+    background-repeat: repeat
+}
+
+@media (max-width: 1200px){
+    #section1 .foto img{
+        display:none;
+    }
+}
+
+
+@media (min-width: 768px){
+    #section1 h2{
+        padding:10px 0;
+    }
+}
+@media (min-width: 1200px){
+    #section1 .opis{
+        min-height:390px;
+    }
+}
+
+@media (min-width: 1400px){
+    #section1 .opis{
+        min-height:390px;
+    }
+}
+
+@media (min-width: 1600px){
+    #section1 .opis{
+        min-height:390px;
+    }
+}
+
+img.ikona{
+    /*    background:red;*/
+    zoom:80%;
+}
+
+#section1 h2{
+    color: white;
+    margin:0px;
+
+}
+#section1 p{
+    color: #d7aa32;
+}
+#section1 .ikona{
+    margin:20px 0;
+}
+
+#section1 .box-1{
+    background: #212121; 
+}
+
+#section1 .box-2{
+    background: #292929;  
+}
+
+#section1 .box-3{
+    background: #525252; 
+}
+
+#section1 .box-4{
+    background: #292929; 
+}
+
+/*grafik*/
+/*#section2 .fp-tableCell{
+    display: block;
+}*/
+#section2 h1{
+    display:block;
+    background: url("../img/gradient.png");
+    padding:20px;
+}
+
+
+#section2 #tabela_treningi{
+    background: url("../img/gradient.png");
+    color: white;
+}
+
+@media (max-width: 768px){
+    .overflow{
+        overflow-x:auto;
+    }
+}
+
+@media (min-width: 768px){
+    #section2 #tabela_treningi {
+
+        margin-bottom:10%;
+
+    }
+
+}
+#section2 #tabela_treningi tr td a{
+    color: white;
+}
+
+#section2 #tabela_treningi tr td{
+    border:2px solid white;
+    background: #343434;
+
+}
+@media (min-width: 1200px){
+    #section2 #tabela_treningi tr td{
+        padding:30px;
+    }   
+}
+@media (min-width: 768px){
+    #section2 #tabela_treningi tr td{
+        padding:5px;
+
+    }   
+}
+
+/*treningi personalne*/
+#section3 h1{
+    display:block;
+    background: url("../img/gradient.png");
+    padding:20px;
+}
+#section3 .lewa-kolumna {
+    margin-top:40px
+}
+@media (min-width: 992px){
+    #section3 .lewa-kolumna .ikony{
+        margin:20px 0;
+    }
+}
+#section3 .lewa-kolumna .ikony img{
+    margin:0 5%;
+}
+#section3 .prawa-kolumna{
+    background: url("../img/bg_trening_personalny.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:cover;
+}
+
+@media (min-width: 768px){
+    #section3 .prawa-kolumna{
+        /*        width:100%;*/
+        height:100%;
+    }  
+}
+@media (min-width: 1200px){
+    .opis_odstep p{
+        margin:30px;
+    }
+}
+
+#section3 .prawa-kolumna h2, #section3 .prawa-kolumna p{
+    color: white;
+}
+/*dzik_komando*/
+#section4 .lewa-kolumna{
+    background: url("../img/bg_biegi.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size:cover;
+}
+
+@media (min-width: 768px){
+    #section4 .lewa-kolumna{
+        /*        width:100%;*/
+        height:100%;
+    }  
+}
+
+
+
+
+#section4 .prawa-kolumna .title h1{
+    border: 3px solid transparent;
+    padding: 15px;
+    border-image-source: url("../img/gradient.png");
+    border-image-slice: 30;
+    padding: 10px;
+}
+#section4 h2{
+    color: #1e1e1e;
+    font-weight: bold;
+}
+.accordion h3{
+    padding-left:30px;
+    background: url("../img/krzyzyk.jpg") no-repeat;  
+    display:block;
+}
+.accordion h3{
+    cursor: pointer
+}
+.accordion a{
+    color: #1e1e1e;
+}
+
+/*kontakt*/
+/*#section5{
+    margin-top:40px;
+}*/
+#section5 h1{
+    display:block;
+    background: url("../img/gradient.png");
+    padding:20px;
+    margin:0px;
+}
+#section5 .partnerzy{
+    margin-top:0px;
+}
+
+#section5 p.dane-kontaktowe{
+    margin-left:15px;
+}
+@media (min-width: 768px){
+    #map {
+        height: 300px !important;
+        width:90% !important;
+    }
+}
+@media (min-width: 1200px){
+    #section5 p.dane-kontaktowe{
+        margin-left:50px;
+    }   
+    #section5 .partnerzy{
+        margin-top:40px;
+    }
+    #map {
+        height: 500px !important;
+    }
+}
+
+
+.partnerzy img,.foto img{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
